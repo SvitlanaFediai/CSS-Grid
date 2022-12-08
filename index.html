@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Svitlana Fediai">
+  <meta name="description" content="Css grid">
+  <title>CSS Grid Layout</title>
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+ 
+  <main>
+    <section class="container">
+      <div class="content">
+        <div class="cities">
+          <h1 class="title">Architectural Photography</h1>
+          <div class="gallery">
+            <div class="gallery__item">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image1.jpg" alt="cities">
+              <p class="caption caption--subtitle">Jezael Melgoza</p>
+              <p class="caption caption--date">5 June 2020</p>
+            </div>
+            <div class="gallery__item gallery__item--landscape">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image2.jpg" alt="cities"> 
+              <p class="caption caption--subtitle">Tom W</p>
+              <p class="caption caption--date">30 March 2021</p>
+            </div>
+            <div class="gallery__item gallery__item--landscape">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image3.jpg" alt="cities">
+              <p class="caption caption--subtitle">Johan Mouchet</p>
+              <p class="caption caption--date">14 August 2019</p>
+            </div>
+            <div class="gallery__item">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image4.jpg" alt="cities">
+              <p class="caption caption--subtitle">Federico Di Dio</p>
+              <p class="caption caption--date">29 October 2020</p>
+            </div>
+            <div class="gallery__item">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image5.jpg" alt="cities">
+              <p class="caption caption--subtitle">Casey Horner</p>
+              <p class="caption caption--date">9 July 2021</p>
+            </div>
+            <div class="gallery__item gallery__item--landscape">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image6.jpg" alt="cities">
+              <p class="caption caption--subtitle">Alexander Rotker</p>
+              <p class="caption caption--date">22 April 2022</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="nature">
+          <h1 class="title">Still Life Photography</h1>
+          <div class="gallery">
+            <div class="gallery__item">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image7.jpg" alt="nature">
+              <p class="caption caption--subtitle">Robert Lukeman</p>
+              <p class="caption caption--date">30 June 2020</p>
+            </div>
+            <div class="gallery__item gallery__item--landscape">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image8.jpg" alt="nature">
+              <p class="caption caption--subtitle">Sean Oulashin</p>
+              <p class="caption caption--date">5 September 2019</p>
+            </div>
+            <div class="gallery__item gallery__item--portrait gallery__item--landscape">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image9.jpg" alt="nature">
+              <p class="caption caption--subtitle">John Fowler</p>
+              <p class="caption caption--date">10 August 2021</p>
+            </div>
+            <div class="gallery__item gallery__item--portrait">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image10.jpg" alt="nature">
+              <p class="caption caption--subtitle">Dave Hoefler</p>
+              <p class="caption caption--date">13 February 2021</p>
+            </div>
+            <div class="gallery__item gallery__item--landscape">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image11.jpg" alt="nature">
+              <p class="caption caption--subtitle">Léonard Cotte</p>
+              <p class="caption caption--date">5 September 2019</p>
+            </div>
+            <div class="gallery__item">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image12.jpg" alt="nature">
+              <p class="caption caption--subtitle">Rob Mulally</p>
+              <p class="caption caption--date">30 May 2020</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="people">
+          <h1 class="title">Portrait and Fashion Photography</h1>
+          <div class="gallery">
+            <div class="gallery__item">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image13.jpg" alt="people">
+              <p class="caption caption--subtitle">Pooja Chaudhary</p>
+              <p class="caption caption--date">30 June 2020</p>
+            </div>
+            <div class="gallery__item gallery__item--portrait">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image14.jpg" alt="people">
+              <p class="caption caption--subtitle">Robert Lukeman</p>
+              <p class="caption caption--date">30 June 2020</p>
+            </div>
+            <div class="gallery__item">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image15.jpg" alt="people">
+              <p class="caption caption--subtitle">Dom Hill</p>
+              <p class="caption caption--date">13 October 2021</p>
+            </div>
+            <div class="gallery__item">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image16.jpg" alt="people">
+              <p class="caption caption--subtitle">Seth Doyle</p>
+              <p class="caption caption--date">30 May 2020</p>
+            </div>
+            <div class="gallery__item gallery__item--portrait">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image19.jpg" alt="people">
+              <p class="caption caption--subtitle">Sincerely Media</p>
+              <p class="caption caption--date">7 January 2021</p>
+            </div>
+            <div class="gallery__item gallery__item--portrait">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image17.jpg" alt="people">
+              <p class="caption caption--subtitle">Seth Doyle</p>
+              <p class="caption caption--date">30 June 2020</p>
+            </div>
+            <div class="gallery__item">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image18.jpg" alt="people">
+              <p class="caption caption--subtitle">Noah Buscher</p>
+              <p class="caption caption--date">13 February 2021</p>
+            </div>
+            <div class="gallery__item gallery__item--landscape">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image20.jpg" alt="people">
+              <p class="caption caption--subtitle">Melissa Askew</p>
+              <p class="caption caption--date">29 April 2021</p>
+            </div>
+            <div class="gallery__item gallery__item--landscape">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image21.jpg" alt="people">
+              <p class="caption caption--subtitle">Brooke Cagle</p>
+              <p class="caption caption--date">5 August 2019</p>
+            </div>
+            <div class="gallery__item">
+              <a class="btn btn--like" href="#"></a>
+              <a class="btn btn--download" href="#" download=""></a>
+              <img class="gallery__photo" src="./images/image22.jpg" alt="people">
+              <p class="caption caption--subtitle">Clem Onojeghuo</p>
+              <p class="caption caption--date">1 July 2021</p>
+            </div>
+          </div>
+        </div>
+                
+      </div>
+    </section>
+  </main>
+
+  
+</body>
+</html>
